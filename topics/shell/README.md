@@ -33,7 +33,7 @@
 <summary>True or False? When a certain command/line fails in a shell script, the shell script, by default, will exit and stop running</summary><br><b>
 
 Depends on the language and settings used.
-If the script is a bash script then this statement is true. When a script written in Bash fails to run a certain command it will keep running and will execute all other commands mentioned after the command which failed.
+If the script is a bash script then this statement is False. When a script written in Bash fails to run a certain command it will keep running and will execute all other commands mentioned after the command which failed.
 
 Most of the time we might actually want the opposite to happen. In order to make Bash exist when a specific command fails, use 'set -e' in your script.
 </b></details>
